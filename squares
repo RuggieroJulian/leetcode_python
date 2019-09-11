@@ -1,0 +1,6 @@
+class Solution(object):
+    def sortedSquares(self, A):
+        listA=[item**2 for item in A]
+        return sorted(listA)
+        
+        
